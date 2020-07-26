@@ -12,9 +12,9 @@ if not os.path.isdir(os.path.join("models", model_name)):
 sess = gpt2.start_tf_sess()
 gpt2.load_gpt2(sess, model_name=model_name)
 
-print("Come try our coffee for")
+print("Model Loaded")
 
-prompt = "Hello World!"
+prompt = "Come try our coffee for"
 
 print("Generating...")
 
